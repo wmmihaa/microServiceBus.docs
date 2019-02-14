@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: microServiceBus.com
-logo: /images/msb-docs-logo.png
+logo: /images/booklogo.png
 plugins: 
   - jekyll-menus
   - jekyll-sitemap
