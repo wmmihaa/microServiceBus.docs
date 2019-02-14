@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: microServiceBus.com
 logo: /images/Logo5.png
+plugins: 
+  - jekyll-sitemap
