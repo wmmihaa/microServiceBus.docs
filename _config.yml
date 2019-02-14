@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
-title: microServiceBus.com documentation
-description: A short description of your site's purpose
-logo: /images/logo5.png
+title: microServiceBus.com
+logo: /images/msb-docs-logo.png
+plugins: 
+  - jekyll-menus
+  - jekyll-sitemap
