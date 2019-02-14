@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Welcome to _**microServiceBus.com**_ help
 
-You can use the [editor on GitHub](https://github.com/axians/microServiceBus.docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Here you will find resources that can help you learn to develop, deploy, administer, and use _**microServiceBus.com**_.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## [News](/wiki/view/1038)
+Get up to date with latest releases and features.
 
-### Markdown
+## [Getting Started](/wiki/view/1033)
+Information about core elements of the platform along with list of new features.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [Tutorials](/wiki/view/1041)
+Step-by-step instructions for learning how to use _**microServiceBus.com**_ and its services to integrate applications, devices and enterprise systems.
 
-```markdown
-Syntax highlighted code block
+## [Scenarios for Business Solutions](/wiki/view/1054)
+Information about designing, building, and running solutions based on different patterns and challenges. Each scenario comes complete with documentation and How-To videos.
 
-# Header 1
-## Header 2
-### Header 3
+## [Common Tasks and Walkthroughs](/wiki/view/1042)
+Step-by-step instructions for commonly performed administrative, business, and development tasks.
 
-- Bulleted
-- List
+## [Performance and Capacity Planning](/wiki/View/1047)
+Information about how to optimize system performance and scale your _**microServiceBus.com**_ solutions.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/axians/microServiceBus.docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## [Support Resources](/wiki/view/1055)
+_**microServiceBus.com**_ support and community resources such as blogs and support.
