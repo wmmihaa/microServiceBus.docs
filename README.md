@@ -1,4 +1,4 @@
-## Welcome to _**microServiceBus.com**_ help
+## Welcome to _**microServiceBus.com**_ docs
 
 Here you will find resources that can help you learn to develop, deploy, administer, and use _**microServiceBus.com**_.
 
