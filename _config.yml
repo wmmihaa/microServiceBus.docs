@@ -3,3 +3,4 @@ title: microServiceBus.com
 logo: /images/Logo5.png
 plugins: 
   - jekyll-menus
+  - jekyll-sitemap
