@@ -10,3 +10,6 @@ Information about core elements of the platform along with list of new features.
 
 ### [Quick reference](/microServiceBus.docs/nav/quickReference)
 Step-by-step instructions for commonly performed tasks.
+
+### [Using microServiceBus API](/microServiceBus.docs/nav/api)
+Step-by-step instructions for commonly performed tasks.
