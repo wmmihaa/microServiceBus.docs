@@ -8,5 +8,5 @@ Get up to date with latest releases and features.
 ### [Getting Started](/wiki/view/1033)
 Information about core elements of the platform along with list of new features.
 
-### [Quick reference](/nav/quickReference/README.md)
+### [Quick reference](/microServiceBus.docs/nav/quickReference/README)
 Step-by-step instructions for commonly performed tasks.
