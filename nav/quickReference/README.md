@@ -1,4 +1,4 @@
 ## Quick reference
 
-### [Installation](/nav/quickReference/installation)
+### [Installation](/microServiceBus.docs/nav/quickReference/installation)
 
