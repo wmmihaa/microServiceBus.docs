@@ -6,7 +6,7 @@ Here you will find resources that can help you learn to develop, deploy, adminis
 
 Get up to date with latest releases and features.
 
-## [Getting Started](/wiki/view/1033)
+## [Getting Started](/microServiceBus.docs/nav/gettingstarted)
 
 Information about core elements of the platform along with list of new features.
 
