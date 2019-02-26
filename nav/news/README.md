@@ -1,3 +1,42 @@
+# Feb 26th, 2018
+## [mSB.com](https://microservicebus.com)
+* Serverside performance improvements
+   * *Mainly focusing on Node sign in*
+* On-site test scripts
+   * *Providing capabilities to let site technitians running unit test on-site to verify installation*
+
+## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.14
+* Enable remote unit testing
+   * *To support On-site test scripts (see mSB.com)
+* Improved support for Yocto
+   * *Extract platform and version from Yocto bundle*
+* Updated Azure SDK => 1.9.3
+
+## [mSB-dam](https://github.com/axians/microservicebus-dam) version 2.0.1
+* Extended to support Yocto
+   * *Corrected bug where DAM only worked in snap env*.
+
+
+# Feb 1th, 2018
+## [mSB.com](https://microservicebus.com)
+* UI performance improvements
+   * *Improvments of how scripts and styles are loaded*
+* Managing ssh user account and keys
+  * *Improve UX*
+* Visualization of environment status
+   * *Improved visualization of environment with all networks and serialport*
+* Show device state (Azure- & AWS IoT hub) on Node property
+   * *Users can now view and edit device twin/shadow directly in the portal*
+* Updating code snippet colleciton to include new features
+   * *Added snippets for **GetCurrentState**, **GetLocalTime** and **GetInstanceOf***
+* FIXED: Closing flow window by clicking on the upper right corner botton doesn't work
+
+## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.1
+* TTLCollection available from services
+   * *TTLCollection to support adding unique items*
+* Add all networks and serialports to requested Environment
+   * *see mSB.com*
+
 # Dec 27th, 2018
 ## [mSB.com](https://microservicebus.com)
 * Lock microservicebus-core version on Organization
