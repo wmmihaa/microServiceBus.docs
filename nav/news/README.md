@@ -1,4 +1,36 @@
-# Feb 26th, 2018
+# March 26th, 2019
+## [mSB.com](https://microservicebus.com)
+* Improved tracking and monitoring
+   * *Better and faster tracking and integration with ServiceNow*
+* Manage Incident Policies allowing organizations to add custom incidents
+   * *Users are now able to set up custom incidents which will be escalated to ServiceNow*
+* Site verification app
+   * *The site verification app can be used to run custom unit tests on Nodes at runtime*
+* Added QR code to test scripts
+   * *QR-code for faster access to the site verification app *
+* Download and view syslogs from portal
+   * *Users are now able to initiate, download and view syslogs from Nodes*
+* Trigger firmware update from action menu
+   * *Before this release, firmware updates could only be initiated from the API*
+* Delete firmware image
+   * *Users can now remove firmware images from the Node page*
+* “Remove me” from organization and email tooltip of users
+   * *Users can now remove themselfs from organizations*
+
+
+## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.27
+* Update Yocto firmware works with version and platform
+   * *This prevents images to be downloaded installed if the device is already using the latest version*
+* Site verification scripts
+   * *Allowing the execution of unit tests to be executed on the Node. These scripts can be used to verify installation setup.*
+* Updated Azure device SDK to 1.9.4
+   * *Nodes are now being notified on disconnect*
+* Support for compression
+   * *Built-in support for compression of messages*
+* Minor bug fixes
+
+
+# Feb 26th, 2019
 ## [mSB.com](https://microservicebus.com)
 * Serverside performance improvements
    * *Mainly focusing on Node sign in*
