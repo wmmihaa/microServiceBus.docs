@@ -7,7 +7,7 @@
 * Site verification app
    * *The site verification app can be used to run custom unit tests on Nodes at runtime*
 * Added QR code to test scripts
-   * *QR-code for faster access to the site verification app *
+   * *QR-code for faster access to the site verification app*
 * Download and view syslogs from portal
    * *Users are now able to initiate, download and view syslogs from Nodes*
 * Trigger firmware update from action menu
