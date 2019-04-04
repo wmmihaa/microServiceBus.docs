@@ -52,6 +52,4 @@ When you as a developer is writing a service to use in a flow, you are extending
 ## Best practices
 
 
-
-
 Back to home page: [Home](/microServiceBus.docs/)
