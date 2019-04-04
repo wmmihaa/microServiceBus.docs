@@ -16,4 +16,8 @@ Step-by-step instructions for commonly performed tasks.
 
 ## [Using microServiceBus API](/microServiceBus.docs/nav/api)
 
-Step-by-step instructions for commonly performed tasks.
+Specification for the microServiceBus API.
+
+## [Administrative tasks](/microServiceBus.docs/nav/administrativetasks)
+
+Learn how to debug your devices, set up policies and group your logic to manage your devices like a pro.
