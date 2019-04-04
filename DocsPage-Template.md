@@ -42,6 +42,6 @@ If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdo
     Example: <img src="https://axians.github.io/microServiceBus.docs/images/Logo5.png" width="50">
     ```
 
-    <img src="https://axians.github.io/microServiceBus.docs/images/Logo5.png" width="100">
+    <img src="./images/Logo5.png" width="100">
 
 Back to home page: [Home](/microServiceBus.docs/)

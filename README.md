@@ -1,6 +1,6 @@
 # Welcome to _**microServiceBus.com**_ docs
 
-Here you will find resources that can help you learn to develop, deploy, administer, and use _**microServiceBus.com**_.
+Here you will find resources that can help you learn to develop, deploy, administer, and use *microServiceBus.com*.
 
 ## [News](/microServiceBus.docs/nav/news)
 
@@ -22,6 +22,6 @@ Specification for the microServiceBus API.
 
 Learn how to debug your devices, set up policies and group your logic to manage your devices like a pro.
 
-## [Integration](/microServiceBus.docs/nav/integration)
+## [Integrations](/microServiceBus.docs/nav/integrations)
 
 Learn how to integrate with your favorite services such as Github, VSTS, Cisco Jasper and Service now.
