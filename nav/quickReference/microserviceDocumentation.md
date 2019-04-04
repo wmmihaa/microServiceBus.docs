@@ -1,11 +1,10 @@
 # Microservices in mSB.com in depth
 
-This page is dedicated to those with a bit of prior knowledge regarding how flows and services in microServiceBus.com works. If you are not familiar with these concepts yet, please visit the [Getting started](/gettingstarted/README.md) first.
+This page is dedicated to those with a bit of prior knowledge regarding how flows and services in *microServiceBus.com* works. If you are not familiar with these concepts yet, please visit the [Getting started](/gettingstarted/README.md) first.
 
-When you as a developer is writing a service to use in a flow, you are extending the *microservice* object mSB.com is exposing. This object has a number of functions and properties that could help you develop your code. First we will go through what is required in your own service, then what is available to you and lastly som best practices.
+When you as a developer is writing a service to use in a flow, you are extending the *microservice* object *microServiceBus.com* is exposing. This object has a number of functions and properties that could help you develop your code. First we will go through what is required in your own service, then what is available to you and lastly som best practices.
 
 ## Required functions
-
 
 * **Start()**
 
@@ -24,6 +23,8 @@ When you as a developer is writing a service to use in a flow, you are extending
         }, 10000)
     }
   ```
+> **Tip!**
+> Here it is great to add all your NPM packages.
 
 ## Properties on the *microservice* object
 
@@ -49,6 +50,7 @@ When you as a developer is writing a service to use in a flow, you are extending
     }
   ```
 ## Best practices
+
 
 
 
