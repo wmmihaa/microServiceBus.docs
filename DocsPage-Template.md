@@ -21,20 +21,20 @@ forEach(codeExample in docs){
 * >Tip! Tips should be written like this
 
 * Always use cursive on reserved words like *node*, *microservice*, *microServiceBus.com*, *flows*, *organization*, *tags* etc.
- 
+
 * Use reference style for images
-    ```
-    Reference-style: 
-    ![Always refence image folder][logo]
+
+    ```text
+    Reference-style:
+    ![alt text][logo]
 
     [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
     ```
-    Reference-style: 
-    ![Always refence image folder][logo]
 
-    [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+    This is how you insert a image in your text:
+
+    ![msbLogo](/images/Logo5.png =100x)
 
 * Always checkout branch before editing so no conflict happens
-
 
 Back to home page: [Home](/microServiceBus.docs/)
