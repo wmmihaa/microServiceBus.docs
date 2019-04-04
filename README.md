@@ -1,4 +1,4 @@
-# Welcome to _**microServiceBus.com**_ docs
+# Welcome to *microServiceBus.com* docs
 
 Here you will find resources that can help you learn to develop, deploy, administer, and use *microServiceBus.com*.
 
@@ -16,7 +16,7 @@ Step-by-step instructions for commonly performed tasks.
 
 ## [Using microServiceBus API](/microServiceBus.docs/nav/api)
 
-Specification for the microServiceBus API.
+Specification for the *microServiceBus* API.
 
 ## [Administrative tasks](/microServiceBus.docs/nav/administrativetasks)
 
