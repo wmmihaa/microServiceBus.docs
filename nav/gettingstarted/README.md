@@ -8,7 +8,7 @@ Learn more about how to use micro services for receiving and transmitting messag
 
 The node is where the magic happens, and is the place where all micro services are hosted. Learn about the different kind of hosts and what platforms they can run on.
 
-## [What is _**microServiceBus.com**_?](/microServiceBus.docs/nav/gettingstarted/microservicebus)
+## [What is microServiceBus.com?](/microServiceBus.docs/nav/gettingstarted/microservicebus)
 
 microServiceBus.com® is essentially a place where all nodes and services are managed. This hub, or “bus”, is also responsible for routing and orchestrating all messages. Learn more about how it works and how you can make the most out of it.
 
