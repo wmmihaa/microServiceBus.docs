@@ -1,7 +1,14 @@
 # What is a "flow"?
+Describe how flows connect microservices to each other and what its uses are. Might be good referring back to what a microservice is and why we would want to connect them.
+Many pictures here helps understanding.
+## 1. Inbound services 
 
-## [First category]
+## 2. interval (or other)
 
-## [Second category]
+## 3. Outbound services
+
+## 4. Routing
+
+## 5. Variables
 
 Back to home page: [Home](/microServiceBus.docs/)
