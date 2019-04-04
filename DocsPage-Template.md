@@ -10,31 +10,38 @@ If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdo
 
 ## Best practices
 
-```javascript
-forEach(codeExample in docs){
-    // ```javascript
-    useInlining(Force);
-    // ```
-}
-```
+* Always checkout branch before editing so no conflict happens.
+
+* Specify code language in code examples.
+
+    ```javascript
+    forEach(codeExample in docs){
+        useInlining(Force);
+        // ```javascript
+        // [My javascript code goes here]
+        // look at raw code for this markdown file to understand
+        // ```
+    }
+    ```
 
 * >Tip! Tips should be written like this
 
 * Always use cursive on reserved words like *node*, *microservice*, *microServiceBus.com*, *flows*, *organization*, *tags* etc.
 
-* Use reference style for images
+* Images can be added in different ways. Depending on the use and size of the image you whant to use.
+
+  * Standard: `![altText](/images/Logosmall.png)`
+
+    ![altText](/images/Logosmall.png)
+
+    *Imports the image at the original size*
+
+  * Advanced: Use raw_html to resize and modify your image. You can use padding, width, hight etc.
 
     ```text
-    Reference-style:
-    ![alt text][logo]
-
-    [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+    Example: <img src="https://axians.github.io/microServiceBus.docs/images/Logo5.png" width="50">
     ```
 
-    This is how you insert a image in your text:
-
-    ![msbLogo](/images/Logo5.png =100x)
-
-* Always checkout branch before editing so no conflict happens
+    <img src="https://axians.github.io/microServiceBus.docs/images/Logo5.png" width="100">
 
 Back to home page: [Home](/microServiceBus.docs/)
