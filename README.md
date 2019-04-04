@@ -21,3 +21,7 @@ Specification for the microServiceBus API.
 ## [Administrative tasks](/microServiceBus.docs/nav/administrativetasks)
 
 Learn how to debug your devices, set up policies and group your logic to manage your devices like a pro.
+
+## [Integration](/microServiceBus.docs/nav/integration)
+
+Learn how to integrate with your favorite services such as Github, VSTS, Cisco Jasper and Service now.
