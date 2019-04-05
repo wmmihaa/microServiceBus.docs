@@ -142,6 +142,6 @@ sudo reboot
 
 [Installing on Ubuntu Core](https://github.com/axians/microServiceBus-node/wiki/IoT-Devices)
 
-Back to Quick Reference page: [Quick Reference](../README.md/)
+Back to Quick Reference page: [Quick Reference](/quickReference/)
 
 Back to home page: [Home](/microServiceBus.docs/)
