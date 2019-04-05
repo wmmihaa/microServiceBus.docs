@@ -14,7 +14,7 @@ To complete this process, just follow these three steps:
 
 ## 1. Install Node.js and npm package:
 
-To install Node.js go to https://nodejs.org/download/ and download the installation media for your platform. Make sure you install the npm package manager as well.
+To install Node.js go to [https://nodejs.org/download/](https://nodejs.org/download/) and download the installation media for your platform. Make sure you install the npm package manager as well.
 
 ### Windows
 
@@ -101,7 +101,7 @@ node start
 
 Open a sample unit file using the command as shown below:
 
-```
+```bash
 sudo nano /lib/systemd/system/msb.service
 ```
 
@@ -142,6 +142,6 @@ sudo reboot
 
 [Installing on Ubuntu Core](https://github.com/axians/microServiceBus-node/wiki/IoT-Devices)
 
-Back to Quick Reference page: [Quick Reference](/quickReference/)
+Back to Quick Reference page: [Quick Reference](../quickReference/)
 
-Back to home page: [Home](/microServiceBus.docs/)
+Back to home page: [Home](/)
