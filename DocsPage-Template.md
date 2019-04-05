@@ -6,11 +6,11 @@ If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdo
 
 ## 1.First step
 
-## 2.Second step
+### 2.Second step
 
-## Best practices
+#### Best practices
 
-* Always checkout branch before editing so no conflict happens.
+* Always checkout branch before editing so no conflict happens. When you are done with your edit, create a pull request.
 
 * Specify code language in code examples.
 
@@ -44,4 +44,4 @@ If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdo
 
     <img src="./images/Logo5.png" width="100">
 
-Back to home page: [Home](/microServiceBus.docs/)
+Back to home page: [Home](/)
