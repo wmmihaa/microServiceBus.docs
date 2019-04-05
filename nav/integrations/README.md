@@ -2,10 +2,10 @@
 
 Learn how to integrate *microservicebus.com* with other services.
 
-## [Cisco Jasper](/microServiceBus.docs/nav/integration/jasper)
+## [Cisco Jasper](./jasper)
 
-## [Source control providers](/microServiceBus.docs/nav/integration/source)
+## [Source control providers](./source)
 
-## [Service Now](/microServiceBus.docs/nav/integration/servicenow)
+## [Service Now](./servicenow)
 
-Back to home page: [Home](/microServiceBus.docs/)
+Back to home page: [Home](/)
