@@ -1,6 +1,14 @@
 # What is [microServicebus.com](https://microservicebus.com)?
 
-microServiceBus.com is a generic IoT platform, enabling you to manage your IoT devices and gateways independently of hardware and cloud provider. 
+Ultimately, microServiceBus.com is designed fill the gap between the out-of-the box device management provided by vendors such as Microsoft, Amazon and IBM, and what is required by the enterprise. 
+
+It aims to address common challenges in the industry of IoT, such as planning for change, steep learning curves and provisioning of new devices. 
+
+*microServiceBus.com* is a platform based on agents, also known as *Nodes*, running on gateways and controlled from a portal known as microServiceBus.com. 
+
+
+microServiceBus.com and all related products and services are owned by AXIANS IoT Operation and is part of VINCI-Energies
+
 
 ## Provisioning and on-boarding
 On-boarding new devices is difficult at scale. Gateways needs to automatically get assigned a cloud identity, receive keys and certificates. -All in a highly secure manner.
