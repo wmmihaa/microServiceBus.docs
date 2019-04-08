@@ -2,26 +2,26 @@
 
 Here you will find resources that can help you learn to develop, deploy, administer, and use *microServiceBus.com*.
 
-## [News](./nav/news)
+## [What is *microServicebus.com*](/microServiceBus.docs/nav/gettingstarted/microservicebus.md)
 
 Get up to date with latest releases and features.
 
-## [Getting Started](./nav/gettingstarted)
+## [News](/microServiceBus.docs/nav/nav/news)
+
+Get up to date with latest releases and features.
+
+## [Getting Started](/microServiceBus.docs/nav/nav/gettingstarted)
 
 Information about core elements of the platform along with list of new features.
 
-## [Quick reference](./nav/quickReference)
+## [Quick reference](/microServiceBus.docs/nav/nav/quickReference)
 
 Step-by-step instructions for commonly performed tasks.
 
-## [Using microServiceBus API](./nav/api)
-
-Specification for the *microServiceBus* API.
-
-## [Administrative tasks](./nav/administrativetasks)
+## [Administrative tasks](/microServiceBus.docs/nav/nav/administrativetasks)
 
 Learn how to debug your devices, set up policies and group your logic to manage your devices like a pro.
 
-## [Integrations](./nav/integrations)
+## [Integrations](/microServiceBus.docs/nav/nav/integrations)
 
-Learn how to integrate with your favorite services such as Github, VSTS, Cisco Jasper and Service now.
+Learn how to integrate with your favorite services such as GitHub, VSTS, Cisco Jasper and Service now.
