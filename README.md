@@ -6,7 +6,7 @@ Here you will find resources that can help you learn to develop, deploy, adminis
 
 Get up to date with latest releases and features.
 
-## [News](/microServiceBus.docs/nav/news)
+## [News](/microServiceBus.docs/nav/news/)
 
 Get up to date with latest releases and features.
 
