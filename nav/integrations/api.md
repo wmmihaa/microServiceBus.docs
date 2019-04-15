@@ -9,7 +9,7 @@ microServiceBus.com API is a REST based API that can be called from any applicat
 
 Paste your token in the *api_key* field at the top of the field.
 
-> Tip: To use the API from out side the swagger page, add the token to the Authorization header.
+> Tip: To use the API from outside the swagger page, add the token to the Authorization header.
 
 ```bash
 url -X GET --header 'Accept: application/json' --header 'Authorization: bearer ....' 'https://microservicebus.com/api/organizations'
