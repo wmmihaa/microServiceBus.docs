@@ -6,15 +6,14 @@ permalink: /news
 ---
 <style>
 summary{
-    font-size: 1.4em;
+    font-size: 1.3em;
         color: #777;
 }
 </style>
-<p>
-<details open>
-<summary>March 26th, 2019</summary>
-<pre>
-## [microservicebus.com](https://microservicebus.com)
+
+<details open><summary markdown="span">March 26th, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
 
 * Improved tracking and monitoring
    * *Better and faster tracking and integration with ServiceNow*
@@ -34,7 +33,7 @@ summary{
    * *Users can now remove themselfs from organizations*
 
 
-## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.27
+### [microservicebus-core](https://github.com/axians/microservicebus-node) version 2.0.27
 * Update Yocto firmware works with version and platform
    * *This prevents images to be downloaded installed if the device is already using the latest version*
 * Site verification scripts
@@ -44,46 +43,41 @@ summary{
 * Support for compression
    * *Built-in support for compression of messages*
 * Minor bug fixes
-</pre>
+
 </details>
-</p>
 
-
-
-<p>
 <details>
-<summary>February 26th, 2019
-</summary><br>
-<pre>
-## [mSB.com](https://microservicebus.com)
+<summary markdown="span">February 26th, 2019</summary>
+
+### [microServiceBus.com](https://microservicebus.com)
 * Serverside performance improvements
    * *Mainly focusing on Node sign in*
 * On-site test scripts
    * *Providing capabilities to let site technitians running unit test on-site to verify installation*
 
-## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.14
+### [microservicebus-core](https://github.com/axians/microservicebus-node) version 2.0.14
 * Enable remote unit testing
-   * *To support On-site test scripts (see mSB.com)
+   * *To support On-site test scripts (see microServiceBus.com)
 * Improved support for Yocto
    * *Extract platform and version from Yocto bundle*
 * Updated Azure SDK => 1.9.3
 
-## [mSB-dam](https://github.com/axians/microservicebus-dam) version 2.0.1
+### [microservicebus-dam](https://github.com/axians/microservicebus-dam) version 2.0.1
 * Extended to support Yocto
    * *Corrected bug where DAM only worked in snap env*.
 
-</pre>
+
 </details>
-</p>
 
 
-<p>
+
+
 <details>
-<summary>February 1st, 2019
-</summary><br>
-<pre>
+<summary markdown="span">February 1st, 2019
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * UI performance improvements
    * *Improvments of how scripts and styles are loaded*
 * Managing ssh user account and keys
@@ -96,24 +90,24 @@ summary{
    * *Added snippets for **GetCurrentState**, **GetLocalTime** and **GetInstanceOf***
 * FIXED: Closing flow window by clicking on the upper right corner botton doesn't work
 
-## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.1
+### [microservicebus-core](https://github.com/axians/microservicebus-node) version 2.0.1
 * TTLCollection available from services
    * *TTLCollection to support adding unique items*
 * Add all networks and serialports to requested Environment
-   * *see mSB.com*
+   * *see microServiceBus.com*
  
-</pre>
+
 </details>
-   </p>
+   
    
 
 
-<p>
+
 <details>
-<summary>December 27th, 2018
-</summary><br>
-<pre>
-## [mSB.com](https://microservicebus.com)
+<summary markdown="span">December 27th, 2018
+</summary>
+
+### [microServiceBus.com](https://microservicebus.com)
 * Lock microservicebus-core version on Organization
 * Lock microservicebus-core version on Node
 * Lock script/service version in Flow
@@ -129,89 +123,89 @@ summary{
 * FIXED: Resize “View source” window
 * FIXED: Remove services from flow
 
-## [mSB-node](https://github.com/axians/microservicebus-node) version 2.0.0
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 2.0.0
 * Lock microservicebus-core version 
 
-## [mSB-core](https://github.com/axians/microservicebus-core) version 2.0.1
-* mSB-core is now running the latest version of Azure Device SDK, fixing issues where messages did not get delivered properly
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.0.1
+* microservicebus-core is now running the latest version of Azure Device SDK, fixing issues where messages did not get delivered properly
 * Updated support for binary messages
 
-## [mSB-dam](https://github.com/axians/microservicebus-dam) version 1.0.0
+### [microservicebus-dam](https://github.com/axians/microservicebus-dam) version 1.0.0
 * Manage SSH keys in portal
 * microservicebus-dam snap/daemon
 * Grant access to Node
 
-## [mSB-yocto](https://github.com/axians/microservicebus-yocto) version 1.0.0
+### [mSB-yocto](https://github.com/axians/microservicebus-yocto) version 1.0.0
 * microservicebus-node Yocto layer
 * Upload firmware
 * Firmware updates using RAUC (bootloader interface)
 * Trigger “Update firmware” from mSB.API
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
-<summary> November 30th, 2018
-</summary><br>
-<pre>
-## [mSB.com](https://microservicebus.com)
+<summary markdown="span"> November 30th, 2018
+</summary>
+
+### [microServiceBus.com](https://microservicebus.com)
 * Grant individual logon privilages (mSb.dam)
-* Lock organization to mSB-core version preventing forced updates
+* Lock organization to microservicebus-core version preventing forced updates
 * Support for locking Flows to script/service version
 * Added CTRL+S/Cmd-S short key for saving scripts
 * FIXED: "Fetch from repo" working kind of funky
 
-## [mSB-node](https://github.com/axians/microservicebus-node) version 1.0.27
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 1.0.27
 * Support for *Device Access Manager* (mSb.dam)
-* Support for custom repos of mSB-core and mSB-node
-* Lock organization to mSB-core version preventing forced 
+* Support for custom repos of microservicebus-core and microservicebus-node
+* Lock organization to microservicebus-core version preventing forced 
 * Updated snap
 
-## [mSB-core](https://github.com/axians/microservicebus-core) version 1.2.52
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 1.2.52
 * Support for *Device Access Manager* (mSb.dam)
-* Lock organization to mSB-core version preventing forced 
+* Lock organization to microservicebus-core version preventing forced 
 * Support for locking Flows to script/service version
 * FIXED: RECONNECTING loop
 
-## [mSB-dam](https://github.com/axians/microservicebus-dam) version 1.0.0
+### [microservicebus-dam](https://github.com/axians/microservicebus-dam) version 1.0.0
 * Support for *Device Access Manager*
 * Updated snap
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> November 4th, 2018
-</summary> <br>
-<pre>
+<summary markdown="span"> November 4th, 2018
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * Improve error message for Github permission error
 * Added funtionality to move node between organizations
 * (Yocto) Download firmware metadata
 * Add under general properties in itinerary designer the service organisation location.
 * FIXED: Can't right click on the service in the itinerary designer
 
-## [mSB.core](https://github.com/axians/microservicebus-core) (1.2.40)
+### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.2.40)
 * (Yocto) nodejs RAUC D-Bus integration
 * FIXED: Message context lost on SubmitResponsemessage
-* FIXED: First msb.core-install, with very slow connection, gets stuck (waited 30 min) #551
+* FIXED: First microservicebus-core-install, with very slow connection, gets stuck (waited 30 min) #551
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> October 21st, 2018 
-</summary> <br>
-<pre>
+<summary markdown="span"> October 21st, 2018 
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * Remove single whitelist entry + add confirmation to Clear list #532
 * API to apply Node template to existing nodes #545
 * Send invites to multiple people #553
@@ -222,17 +216,17 @@ summary{
 * FIXED: Performance improvements for handling signIn & creation of nodes. #529
 * Opened in axians/microServiceBus.com
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> October 10th, 2018
+<summary markdown="span"> October 10th, 2018
 </summary> <b>
-<pre>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * Remove single whitlist entry
 * Enable/Disable nodes using CTRL+R
 * Upload Yocto firmware image
@@ -241,21 +235,21 @@ summary{
 * Apply node templates to nodes using API
 * FIXED: Cut long Flow names in list
 
-## [mSB.core](https://github.com/axians/microservicebus-core) (1.2.31)
+### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.2.31)
 * Fixed issue restarting COM upon State gets updated
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
 
-<summary> September 7th, 2018
-</summary> <br>
-<pre>
+<summary markdown="span"> September 7th, 2018
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * Show diff on Audit log
 * (Node API) Updated (start, stop, enable) to use PUT verb
 * (Node API) Creating a node returns the object
@@ -266,25 +260,25 @@ summary{
 * FIXED: createNodeFromMacAddress should not require authorization
 * FIXED: Ctrl+R does not work in all pages
 
-## [mSB.core](https://github.com/axians/microservicebus-core) (1.2.18)
+### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.2.18)
 * FIXED: Changed state should trigger all "Receive State" services
 
-## [mSB.node](https://github.com/axians/microservicebus-node) (1.0.26)
+### [microservicebus-node](https://github.com/axians/microservicebus-node) (1.0.26)
 * Add timeout to ensure installation of core does not hang
 * Updated snap version to 1.26
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
 
-<summary> August 11th, 2018
-</summary> <br>
-<pre>
+<summary markdown="span"> August 11th, 2018
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * Enabled *Node templates* when *Nodes* are created using Cisco Jasper integration
 * Impoved Search on *Node* page 
 * Added more trace events from *Nodes*
@@ -298,18 +292,18 @@ summary{
 * FIXED: bug when creating nodes thorugh Jasper for the first time (no nodes exists)
 * FIXED: Console not working on Edge
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
 
-<summary> July 23rd, 2018
-</summary><br>
-<pre>
+<summary markdown="span"> July 23rd, 2018
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 * Added policys for Nodes.
     * Now you can set policy for nodes, you can change disconnect, reconnect and offline mode actions.
 * Added node templates.
@@ -322,20 +316,20 @@ summary{
 * Improved node properties page.
 * FIXED: Oranization delete page shows right information
  
-## [mSB.core](https://github.com/axians/microservicebus-core)
+### [microservicebus-core](https://github.com/axians/microservicebus-core)
 * Implement policys. (disconnect, reconnect, offline mode)
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> June 30th, 2018
-</summary> <br>
-<pre>
+<summary markdown="span"> June 30th, 2018
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 *  New Swagger based API
     * For integration with LOB system for managing your Nodes. This API will be extended for many more options in the future. 
 *  Format JSON messages in console 
@@ -343,23 +337,23 @@ summary{
 
 *  FIXED: Resizing Flow designer now works
  
-## [mSB.core](https://github.com/axians/microservicebus-core)
+### [microservicebus-core](https://github.com/axians/microservicebus-core)
 *  Many more events persisted to History
-*  Removed redundant packages that were part of [mSB.core](https://github.com/axians/microservicebus-node)
+*  Removed redundant packages that were part of [microservicebus-core](https://github.com/axians/microservicebus-node)
 *  Disable IoT Hob connection on disabling the node.
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
 
-<summary> June 19th, 2018
-</summary> <br>
-<pre>
+<summary markdown="span"> June 19th, 2018
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 *  Saving a flow with a node-attribute set to a non-existing node in a service silently gets created
     * This behavior has now changed, and you can optionally save your *Flow* without creating the nodes
 *  Auto-complete tags when writing '#' in nodes fields
@@ -373,30 +367,30 @@ summary{
 
 *  FIXED: Tags not working for Inbound State Services
 
-## [mSB.core](https://github.com/axians/microservicebus-core)
+### [microservicebus-core](https://github.com/axians/microservicebus-core)
 *  Get and instance of another service from code within the same Flow
 Services normaly interact through the *Service* connectors in the *Flow* diagram. But sometimes a service can only exist once, such as for accessing a serial port. In such cases you can get an instance of a specific service using:
-```
+```javascript
 var srv = this.GetInstanceOf('mbuService');
 srv.Process(msg, context); // or any other method
 ```
 *  FIXED: Tags not working for Inbound State Services
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> June 5th, 2018
-</summary><br>
-<pre>
+<summary markdown="span"> June 5th, 2018
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 *  New beautiful background image
 [Rickard Lundqvist](https://www.instagram.com/photobyrickard/) taken this beutiful picture of Nybrokajen in Stockholm.
 *  Provide Node shutdown option from portal
-Nodes can now be shutdown from the [mSB.com](https://microservicebus.com) portal
+Nodes can now be shutdown from the [microServiceBus.com](https://microservicebus.com) portal
 *  Enabled remote debug using Chrome Dev Tools
 Earlier version of remote debugger has been removed and changed to Chrome Dev Tools
 *  Audit log
@@ -420,11 +414,11 @@ All calls from Nodes are authenticated directly on connection rather than only u
 *  FIXED: Unit tests not working
 All unit tests have been refactored and moved to travis
 
-## [mSB.core](https://github.com/axians/microservicebus-node)
+### [microservicebus-core](https://github.com/axians/microservicebus-node)
 *  GetInstanceOf method on Services
 Get an instance of an other service in the same flow using a simple method call.
 # Apr 22nd, 2018
-## [mSB.com](https://microservicebus.com)
+### [microServiceBus.com](https://microservicebus.com)
 *  New beautiful background image
 [Håkan Garnefält](https://www.instagram.com/haawks/) has been kind enough to share his spring picture of Stockholm by the sea.
 *  Audit log for Flows, Nodes, Organization and Scripts  
@@ -441,24 +435,24 @@ The *Console has been extended to the mobile view
 *  **FIX:** GitHub integration issues ans been resolved
 *  **FIX:** Default organizations is stored in session
 *  **FIX:** Organizations can now change names
-## [mSB.core](https://github.com/axians/microservicebus-node)
+### [microservicebus-core](https://github.com/axians/microservicebus-node)
 *  Set environment parameter at startup
 *node start* now accepts **--env** such as:
 ```
 node start -c ASDGJ -n myNode -env myorg.microservicebus.com
 ``` 
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> March 19th, 2018
-</summary><br>
-<pre>
+<summary markdown="span"> March 19th, 2018
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 *  History log of all successful and failed transmitted messages along with related events.
 From the [Node page](/Nodes) users can now access last weeks event *Action* drop-down menu. This will provide good insight of everything happening on the node.
 
@@ -474,7 +468,7 @@ You can now synchronize **Scripts** in your *microServiceBus.com* organization w
     * Persist selected organization as default.
     * Forgot password page is now aligned with graphical profile.
 
-## [mSB.core](https://github.com/axians/microservicebus-core) (1.1.40)
+### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.1.40)
 *  History log of all successful and failed transmitted messages.
 Information about every message or event sent from the node is stored in the ./history directory and is saved for a week but limited to 10K. 
 Apart from information about transmitted messages, actions such as connected and disconnected is also stored.
@@ -490,24 +484,24 @@ When starting up the node for the first time you can now use **-env** to specify
 node start -c XXXXX -n YYYYYY [-env xxx.microservicebus.com] [--beta]
 ``` 
 
-## [mSB.core](https://github.com/axians/microservicebus-node) (1.0.15)
+### [microservicebus-core](https://github.com/axians/microservicebus-node) (1.0.15)
 *  Allow 'node restore' with parameter specifying customer's (private) environment uri.
 When restoring the node you can now use **-env** to specify private or self hosted hubs:
 ```
-node restore -env xxx.microservicebus.com // Requires update of mSB.node
+node restore -env xxx.microservicebus.com // Requires update of microservicebus-node
 ```
 
-</pre>
+
 </details> 
-</p>
 
-<p>
+
+
 <details>
-<summary> February 23rd, 2018
-</summary><br>
-<pre>
+<summary markdown="span"> February 23rd, 2018
+</summary>
 
-## [mSB.core](https://github.com/axians/microservicebus-core) (1.1.3)
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.1.3)
 *  Always persist messages on *Node* 
 By setting the retention period on the *Node* greater than 
 "0", all outgoing event and messages are persisted on the device until the retention period is exceeded or the available storage is less than 25%. 
@@ -515,7 +509,7 @@ By setting the retention period on the *Node* greater than
 *  Fixes:
     * Fixed: Improved persistence when offline 
 
-## [mSB.com](https://microservicebus.com)
+### [microServiceBus.com](https://microservicebus.com)
 *  Resend messages from *Node*
     * On the **Node** page of the *microServiceBus.com* portal you are now able to resend messages persisted on the device.
 
@@ -531,17 +525,17 @@ By setting the retention period on the *Node* greater than
     * Fixed: Extend session variable timeout from 2h to 24h
     * Fixed: **ccp** type services won't drag 'n drop
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> February 6th, 2018
-</summary><br>
-<pre>
+<summary markdown="span"> February 6th, 2018
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 *  Change org should stay on page
     * When changing organization it's annoying having to navigate back to the same page...
 
@@ -549,17 +543,17 @@ By setting the retention period on the *Node* greater than
     * Major update in relation to Device Management communication to make it more stable.
 *  FIXED: Empty itineraries causes flow list to fail 
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> January 27th, 2018
-</summary><br>
-<pre>
+<summary markdown="span"> January 27th, 2018
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 
 *  New design on homepage
     * Winter is comming...
@@ -579,7 +573,7 @@ By setting the retention period on the *Node* greater than
 *  FIXED: Confirmation email page is links to missing image
 *  FIXED: Copy script from [Script page](/files)
 
-## [mSB.core](https://github.com/axians/microservicebus-core) (1.0.70)
+### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.0.70)
 
 *  Implement retry policy "NoRetry" for Azure IoT.
 
@@ -589,17 +583,17 @@ By setting the retention period on the *Node* greater than
 
 *  Build service script for UBLOX_EVK_ODIN_W2
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> December 7th, 2017 
-</summary><br>
-<pre>
+<summary markdown="span"> December 7th, 2017 
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 
 * Updated Jasper API
     * Updated API allows for Jasper to notify when devices comes offline
@@ -619,17 +613,17 @@ By setting the retention period on the *Node* greater than
     * Allowing ServiceNow to call to check if node is offline
 * Add description mandatory dialog when creating a new script from scratch
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> November 12th, 2017
-</summary><br>
-<pre>
+<summary markdown="span"> November 12th, 2017
+</summary>
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 
 *  New design
     * We hope you enjoy our new darker theme. In the future we'll add support for selecting your favorite theme
@@ -637,40 +631,40 @@ By setting the retention period on the *Node* greater than
     * You are now able to change the device protocol. This only affects Azure IoT hubs as they support AMQP, AMQP-WS, MQTT, MQTT-WS and REST
 *  FIXED: Minor UI fixes
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> October 28th, 2017
-</summary><br> 
-<pre>
+<summary markdown="span"> October 28th, 2017
+</summary> 
 
-## [mSB.com](https://microservicebus.com)
+
+### [microServiceBus.com](https://microservicebus.com)
 
 * Scheduled updates
     * Enterprise customers will be able to schedule updates, patching and other actions through the portal
 * Node state
     * State of node (network. os, env npm list etc) is now available from Node page
 * Resetting nodes
-    * mSB-core is now removed upon resetting the node
+    * microservicebus-core is now removed upon resetting the node
 * Jasper consumption data
     * SIM card consumption and status is now provided through the Node page
 * FIXED: Services must now have unique names
 * FIXED: Track exceptions
 
-</pre>
+
 </details>
-</p>
 
-<p>
+
+
 <details>
-<summary> October 28th, 2017
-</summary><br>
-<pre>
+<summary markdown="span"> October 28th, 2017
+</summary>
 
-## [mSB.core](https://github.com/axians/microservicebus-core)
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core)
 
 * New version of microServiceBus.core (1.0.20)
 * Persisting limit
@@ -679,15 +673,15 @@ By setting the retention period on the *Node* greater than
     * Sys logs can be requested from the node page
 * FIXED: Messages are no longer routed to disabled services
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
-<summary> March 29th, 2017
-</summary><br>
-<pre>
+<summary markdown="span"> March 29th, 2017
+</summary>
+
 
 *  Scheduled updates (Beta)
     * Enterprise customers will be able to schedule updates, patching and other actions through the portal
@@ -700,15 +694,15 @@ By setting the retention period on the *Node* greater than
     * Fixed signin issues for AWS IoT
     * ixed issue with debug = true, not reconnecting
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
-<summary> February 22th, 2017
-</summary><br>
-<pre>
+<summary markdown="span"> February 22th, 2017
+</summary>
+
 
 * Support for Amazon AWS IoT
     * Alongside Azure IoT we now support Amazon AWS IoT Hub. All features available for Azure are available for AWS as well.
@@ -723,15 +717,15 @@ By setting the retention period on the *Node* greater than
 * Paging list of nodes
     * With many nodes, it’s easier to use paging to quicker select and manage your nodes.
 
-</pre>
-</details>
-</p>
 
-<p>
+</details>
+
+
+
 <details>
-<summary> February 6th, 2017
-</summary><br>
-<pre>
+<summary markdown="span"> February 6th, 2017
+</summary>
+
 
 *  Tags
     * On the details page for each node, there is now a _Tags_ field. This is a field where you can provide a comma-separated list of tags. These _Tags_ can later be used in the Node setting of Inbound Services of _Flows_. This way you can configure many nodes through one single _Service_. To use _Tags_ in Services, simply use #[TAG], Eg. #building3.
@@ -745,6 +739,5 @@ By setting the retention period on the *Node* greater than
 *  Remote Restart and Reboot
     * From the Node page your are now given a set of _Actions_ to control your node. The _Reboot_ option will re-start your node, but requires the process to run with enough privileges. The _Restart_ option restarts the Core process and will download any updated packages.
     
-</pre>
+
 </details>
-</p>

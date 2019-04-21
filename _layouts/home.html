@@ -8,6 +8,11 @@ layout: default
     height: 681px;
   }
 
+  .msb {
+    font-style: italic;
+    font-weight: 500;
+  }
+
   .list-content {
     height: 400px;
   }
@@ -46,10 +51,26 @@ layout: default
     text-decoration: none;
     color: black;
   }
+
+  .headerInformation {
+    margin-bottom: 25px;
+  }
 </style>
+
+
+<div class="row ">
+  <div class="col-md-12 headerInformation">
+    <h1 class="display-4">Welcome to microServiceBus.com DOCS.</h1>
+    <p class="lead">Build rubust and manageble IoT solutions and operate them using <span
+        class="msb">microServiceBus.com</span>. This is the place where you get all the help you need, browse through
+      our quick reference and keep yourself updated with the latest development.</p>
+
+    <hr />
+  </div>
+</div>
 <div class="row">
   <div class="col-md-4 list-content-container">
-    <a href="{{site.baseurl}}/what-is-msb"> 
+    <a href="{{site.baseurl}}/what-is-msb">
       <div class="list-content">
         <div class="col-md-12">
           <img src="{{site.baseurl}}/images/logo_head.svg" style="height: 125px" />
@@ -57,11 +78,13 @@ layout: default
         <div class="col-md-12">
           <h2>microServiceBus.com?</h2>
         </div>
-        <p>This chapter will be about getting started with Git. We will begin by explaining some background on version
-          control tools, then move on to how to get Git running on your system and finally how to get it set up to start
-          working with. At the end of this chapter you should understand why Git is around, why you should use it and
-          you
-          should be all set up to do so.</p>
+        <p>Ultimately, <span class="msb">microServiceBus.com</span> is designed fill the gap between the out-of-the
+          box
+          device management
+          provided by vendors such as Microsoft, Amazon and IBM, and what is required by the enterprise. <br />It aims
+          to address common challenges in the industry of IoT, such as planning for change, steep learning curves and
+          provisioning of new devices.</p>
+
       </div>
     </a>
   </div>
@@ -75,11 +98,12 @@ layout: default
         <div class="col-md-12">
           <h1> Getting started</h1>
         </div>
-        <p>This chapter will be about getting started with Git. We will begin by explaining some background on version
-          control tools, then move on to how to get Git running on your system and finally how to get it set up to start
-          working with. At the end of this chapter you should understand why Git is around, why you should use it and
-          you
-          should be all set up to do so.</p>
+        <p>This section will be about getting started with <span class="msb">microServiceBus.com</span> We will begin
+          by
+          explaining some key aspects, then move on to how to get <span class="msb">microServiceBus.com</span> running
+          on your device and finally how to get it
+          set up to startworking with. At the end of this section you should understand why <span
+            class="msb">microServiceBus.com</span> is around.</p>
       </div>
     </a>
   </div>
@@ -93,11 +117,9 @@ layout: default
         <div class="col-md-12">
           <h1>Quick reference</h1>
         </div>
-        <p>This chapter will be about getting started with Git. We will begin by explaining some background on version
-          control tools, then move on to how to get Git running on your system and finally how to get it set up to start
-          working with. At the end of this chapter you should understand why Git is around, why you should use it and
-          you
-          should be all set up to do so.</p>
+        <p><span class="msb">microServiceBus.com</span> comes with tons of hidden gems and features that will enhance
+          your productivity. Learn more about installation, debugging and may other task neccessary to develop, deploy
+          and manage an IoT solution.</p>
       </div>
     </a>
   </div>
@@ -111,35 +133,33 @@ layout: default
         <div class="col-md-12">
           <h1>News</h1>
         </div>
-        <p>This chapter will be about getting started with Git. We will begin by explaining some background on version
-          control tools, then move on to how to get Git running on your system and finally how to get it set up to start
-          working with. At the end of this chapter you should understand why Git is around, why you should use it and
-          you
-          should be all set up to do so.</p>
+        <p><span class="msb">microServiceBus.com</span> and its related components, such as the agents are contantly
+          beeing developed. New features and fixes are generally published on bi-weekly bases. It can sometimes be
+          hard to keep up with the latest bits. The News section is your go-to-place for staying on top of the game
+          and
+          plan your releaes.</p>
       </div>
     </a>
   </div>
 
   <div class="col-md-4 list-content-container">
-    <a href="http://example.com">
+    <a href="{{site.baseurl}}/administrativetasks-list">
       <div class="list-content">
         <div class="col-md-12">
           <img src="{{site.baseurl}}/images/administrativetasks.svg" style="height: 125px" />
         </div>
         <div class="col-md-12">
-          <h1>Administration</h1>
+          <h1>Operation</h1>
         </div>
-        <p>This chapter will be about getting started with Git. We will begin by explaining some background on version
-          control tools, then move on to how to get Git running on your system and finally how to get it set up to start
-          working with. At the end of this chapter you should understand why Git is around, why you should use it and
-          you
-          should be all set up to do so.</p>
+        <p>Don't build thing that you can't change! Managing resources remotly is particularly important when it comes
+          to IoT. in this section you'll find out how <span class="msb">microServiceBus.com</span> can help you update
+          and patch your solution, how you can controll and get insight of your devices.</p>
       </div>
     </a>
   </div>
 
   <div class="col-md-4 list-content-container">
-    <a href="http://example.com">
+    <a href="{{site.baseurl}}/integration">
       <div class="list-content">
         <div class="col-md-12">
           <img src="{{site.baseurl}}/images/integration.svg" style="height: 125px" />
@@ -147,13 +167,25 @@ layout: default
         <div class="col-md-12">
           <h1>Integration</h1>
         </div>
-        <p>This chapter will be about getting started with Git. We will begin by explaining some background on version
-          control tools, then move on to how to get Git running on your system and finally how to get it set up to start
-          working with. At the end of this chapter you should understand why Git is around, why you should use it and
-          you
-          should be all set up to do so.</p>
+        <p>IoT is all about integration, and there are many great services which you will need to collectivly to
+          create
+          and manage a successful solution. In this section, you will learn how to integrate with SIM card management
+          tools, issue tracking services and source control repositories.</p>
       </div>
     </a>
   </div>
 
+</div>
+<hr />
+<div class="row" style="margin-top:25px">
+
+  <div class="col-md-1"></div>
+  <div class="col-md-1"><img src="{{site.baseurl}}/images/training.svg" style="height: 125px" /></div>
+  <div class="col-md-8">
+    <h1 class="display-4">Also, -checkout microServiceBus.com tutorial!</h1>
+    <p class="lead">This training course will help you discover how the <span class="msb">microServiceBus.com</span>
+      works and how you can using to build and manage your IoT solutions.</p>
+      <a class="btn btn-primary btn-lg" href="https://github.com/axians/microServiceBus-tutorial" role="button" style="color: #fff;">Learn more</a>
+  </div>
+  
 </div>

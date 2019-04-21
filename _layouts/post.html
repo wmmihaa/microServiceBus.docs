@@ -12,25 +12,30 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content col-md-9" itemprop="articleBody">
+  <div class="post-content col-md-9" itemprop="articleBody" style="padding: 0px 50px 0px 0px;">
     {{ content }}
   </div>
 
-  <div class="col-md-3">
-    <h4>Related content</h4>
+  <div class="col-md-3" style=" border-left: .5px solid #ccc;">
+    {% assign related_category = page.collection %}
+    <h4>Related content:</h4>
     <ul>
-      {% for post in site.related_posts limit:10 %}
-        <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+      <li><a href="{{ site.baseurl }}}" title="Home">Home</a></li>
+      {% assign related_pages = site[related_category] %}
+      {% for post in related_pages %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
+    
   </div>
 
   {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+  {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
