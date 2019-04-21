@@ -12,9 +12,8 @@ summary{
 </style>
 <p>
 <details open>
-<summary>March 26th, 2019
-</summary><br>
-{% markdown %}
+<summary>March 26th, 2019</summary>
+<pre>
 ## [microservicebus.com](https://microservicebus.com)
 
 * Improved tracking and monitoring
@@ -45,7 +44,7 @@ summary{
 * Support for compression
    * *Built-in support for compression of messages*
 * Minor bug fixes
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -55,7 +54,7 @@ summary{
 <details>
 <summary>February 26th, 2019
 </summary><br>
-{% markdown %}
+<pre>
 ## [mSB.com](https://microservicebus.com)
 * Serverside performance improvements
    * *Mainly focusing on Node sign in*
@@ -73,7 +72,7 @@ summary{
 * Extended to support Yocto
    * *Corrected bug where DAM only worked in snap env*.
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -82,7 +81,7 @@ summary{
 <details>
 <summary>February 1st, 2019
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * UI performance improvements
@@ -103,7 +102,7 @@ summary{
 * Add all networks and serialports to requested Environment
    * *see mSB.com*
  
-{% endmarkdown %}
+</pre>
 </details>
    </p>
    
@@ -113,7 +112,7 @@ summary{
 <details>
 <summary>December 27th, 2018
 </summary><br>
-{% markdown %}
+<pre>
 ## [mSB.com](https://microservicebus.com)
 * Lock microservicebus-core version on Organization
 * Lock microservicebus-core version on Node
@@ -148,7 +147,7 @@ summary{
 * Firmware updates using RAUC (bootloader interface)
 * Trigger “Update firmware” from mSB.API
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -156,7 +155,7 @@ summary{
 <details>
 <summary> November 30th, 2018
 </summary><br>
-{% markdown %}
+<pre>
 ## [mSB.com](https://microservicebus.com)
 * Grant individual logon privilages (mSb.dam)
 * Lock organization to mSB-core version preventing forced updates
@@ -180,7 +179,7 @@ summary{
 * Support for *Device Access Manager*
 * Updated snap
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -188,7 +187,7 @@ summary{
 <details>
 <summary> November 4th, 2018
 </summary> <br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * Improve error message for Github permission error
@@ -202,7 +201,7 @@ summary{
 * FIXED: Message context lost on SubmitResponsemessage
 * FIXED: First msb.core-install, with very slow connection, gets stuck (waited 30 min) #551
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -210,7 +209,7 @@ summary{
 <details>
 <summary> October 21st, 2018 
 </summary> <br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * Remove single whitelist entry + add confirmation to Clear list #532
@@ -223,7 +222,7 @@ summary{
 * FIXED: Performance improvements for handling signIn & creation of nodes. #529
 * Opened in axians/microServiceBus.com
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -231,7 +230,7 @@ summary{
 <details>
 <summary> October 10th, 2018
 </summary> <b>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * Remove single whitlist entry
@@ -245,7 +244,7 @@ summary{
 ## [mSB.core](https://github.com/axians/microservicebus-core) (1.2.31)
 * Fixed issue restarting COM upon State gets updated
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -254,7 +253,7 @@ summary{
 
 <summary> September 7th, 2018
 </summary> <br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * Show diff on Audit log
@@ -274,7 +273,7 @@ summary{
 * Add timeout to ensure installation of core does not hang
 * Updated snap version to 1.26
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -283,7 +282,7 @@ summary{
 
 <summary> August 11th, 2018
 </summary> <br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * Enabled *Node templates* when *Nodes* are created using Cisco Jasper integration
@@ -299,7 +298,7 @@ summary{
 * FIXED: bug when creating nodes thorugh Jasper for the first time (no nodes exists)
 * FIXED: Console not working on Edge
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -308,7 +307,7 @@ summary{
 
 <summary> July 23rd, 2018
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 * Added policys for Nodes.
@@ -326,7 +325,7 @@ summary{
 ## [mSB.core](https://github.com/axians/microservicebus-core)
 * Implement policys. (disconnect, reconnect, offline mode)
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -334,7 +333,7 @@ summary{
 <details>
 <summary> June 30th, 2018
 </summary> <br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 *  New Swagger based API
@@ -349,7 +348,7 @@ summary{
 *  Removed redundant packages that were part of [mSB.core](https://github.com/axians/microservicebus-node)
 *  Disable IoT Hob connection on disabling the node.
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -358,7 +357,7 @@ summary{
 
 <summary> June 19th, 2018
 </summary> <br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 *  Saving a flow with a node-attribute set to a non-existing node in a service silently gets created
@@ -383,7 +382,7 @@ srv.Process(msg, context); // or any other method
 ```
 *  FIXED: Tags not working for Inbound State Services
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -391,7 +390,7 @@ srv.Process(msg, context); // or any other method
 <details>
 <summary> June 5th, 2018
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 *  New beautiful background image
@@ -449,7 +448,7 @@ The *Console has been extended to the mobile view
 node start -c ASDGJ -n myNode -env myorg.microservicebus.com
 ``` 
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -457,7 +456,7 @@ node start -c ASDGJ -n myNode -env myorg.microservicebus.com
 <details>
 <summary> March 19th, 2018
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 *  History log of all successful and failed transmitted messages along with related events.
@@ -498,7 +497,7 @@ When restoring the node you can now use **-env** to specify private or self host
 node restore -env xxx.microservicebus.com // Requires update of mSB.node
 ```
 
-{% endmarkdown %}
+</pre>
 </details> 
 </p>
 
@@ -506,7 +505,7 @@ node restore -env xxx.microservicebus.com // Requires update of mSB.node
 <details>
 <summary> February 23rd, 2018
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.core](https://github.com/axians/microservicebus-core) (1.1.3)
 *  Always persist messages on *Node* 
@@ -532,7 +531,7 @@ By setting the retention period on the *Node* greater than
     * Fixed: Extend session variable timeout from 2h to 24h
     * Fixed: **ccp** type services won't drag 'n drop
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -540,7 +539,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> February 6th, 2018
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 *  Change org should stay on page
@@ -550,7 +549,7 @@ By setting the retention period on the *Node* greater than
     * Major update in relation to Device Management communication to make it more stable.
 *  FIXED: Empty itineraries causes flow list to fail 
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -558,7 +557,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> January 27th, 2018
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 
@@ -590,7 +589,7 @@ By setting the retention period on the *Node* greater than
 
 *  Build service script for UBLOX_EVK_ODIN_W2
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -598,7 +597,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> December 7th, 2017 
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 
@@ -620,7 +619,7 @@ By setting the retention period on the *Node* greater than
     * Allowing ServiceNow to call to check if node is offline
 * Add description mandatory dialog when creating a new script from scratch
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -628,7 +627,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> November 12th, 2017
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 
@@ -638,7 +637,7 @@ By setting the retention period on the *Node* greater than
     * You are now able to change the device protocol. This only affects Azure IoT hubs as they support AMQP, AMQP-WS, MQTT, MQTT-WS and REST
 *  FIXED: Minor UI fixes
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -646,7 +645,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> October 28th, 2017
 </summary><br> 
-{% markdown %}
+<pre>
 
 ## [mSB.com](https://microservicebus.com)
 
@@ -661,7 +660,7 @@ By setting the retention period on the *Node* greater than
 * FIXED: Services must now have unique names
 * FIXED: Track exceptions
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -669,7 +668,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> October 28th, 2017
 </summary><br>
-{% markdown %}
+<pre>
 
 ## [mSB.core](https://github.com/axians/microservicebus-core)
 
@@ -680,7 +679,7 @@ By setting the retention period on the *Node* greater than
     * Sys logs can be requested from the node page
 * FIXED: Messages are no longer routed to disabled services
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -688,7 +687,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> March 29th, 2017
 </summary><br>
-{% markdown %}
+<pre>
 
 *  Scheduled updates (Beta)
     * Enterprise customers will be able to schedule updates, patching and other actions through the portal
@@ -701,7 +700,7 @@ By setting the retention period on the *Node* greater than
     * Fixed signin issues for AWS IoT
     * ixed issue with debug = true, not reconnecting
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -709,7 +708,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> February 22th, 2017
 </summary><br>
-{% markdown %}
+<pre>
 
 * Support for Amazon AWS IoT
     * Alongside Azure IoT we now support Amazon AWS IoT Hub. All features available for Azure are available for AWS as well.
@@ -724,7 +723,7 @@ By setting the retention period on the *Node* greater than
 * Paging list of nodes
     * With many nodes, it’s easier to use paging to quicker select and manage your nodes.
 
-{% endmarkdown %}
+</pre>
 </details>
 </p>
 
@@ -732,7 +731,7 @@ By setting the retention period on the *Node* greater than
 <details>
 <summary> February 6th, 2017
 </summary><br>
-{% markdown %}
+<pre>
 
 *  Tags
     * On the details page for each node, there is now a _Tags_ field. This is a field where you can provide a comma-separated list of tags. These _Tags_ can later be used in the Node setting of Inbound Services of _Flows_. This way you can configure many nodes through one single _Service_. To use _Tags_ in Services, simply use #[TAG], Eg. #building3.
@@ -746,6 +745,6 @@ By setting the retention period on the *Node* greater than
 *  Remote Restart and Reboot
     * From the Node page your are now given a set of _Actions_ to control your node. The _Reboot_ option will re-start your node, but requires the process to run with enough privileges. The _Restart_ option restarts the Core process and will download any updated packages.
     
-{% endmarkdown %}
+</pre>
 </details>
 </p>
